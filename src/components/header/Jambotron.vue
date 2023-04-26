@@ -104,6 +104,7 @@ export default {
       p {
         width: 60%;
         font-size: 13px;
+        color: grey;
       }
     }
 

@@ -1,14 +1,20 @@
 <script>
+import SectionBusiness from "./SectionBusiness.vue";
 export default {
   name: "AppMain",
   data() {
     return {};
   },
+  components: {
+    SectionBusiness,
+  },
 };
 </script>
 
 <template>
-  <h1>MAIN</h1>
+  <main>
+    <SectionBusiness />
+  </main>
 </template>
 
 <style scoped lang="scss"></style>
