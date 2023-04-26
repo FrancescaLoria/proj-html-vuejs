@@ -1,14 +1,12 @@
 <script>
 export default {
-  name: "AppHeader",
+  name: "jambotron",
   data() {
     return {};
   },
 };
 </script>
 
-<template>
-  <h1>HEADER</h1>
-</template>
+<template>fufu</template>
 
 <style scoped lang="scss"></style>
