@@ -17,7 +17,7 @@ export default {
 <template>
   <div class="business">
     <div class="ms_container">
-      <div class="areas">our business areas</div>
+      <div class="areas mb-3">OUR BUSINESS ARES</div>
       <div class="d-flex">
         <div class="title">Excellence in</div>
         <div class="team">Services</div>
@@ -32,7 +32,7 @@ export default {
           <MyButton :text="'SEE ALL'" :variant="'blue'" class="ms-2" />
         </div>
       </div>
-      <div class="row row-cols-3">
+      <div class="row">
         <CardBusiness />
       </div>
     </div>
@@ -45,7 +45,7 @@ export default {
   background-color: #eef4ed;
   .areas {
     color: #058283;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .title {

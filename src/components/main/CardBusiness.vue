@@ -97,8 +97,10 @@ export default {
 <style scoped lang="scss">
 .ms_card {
   background-color: white;
-  border: 1px solid black;
+
   border-radius: 10px;
+  width: calc(100% / 3 - 20px);
+  margin: 10px;
 
   .font-awesome-card {
     color: #058283;

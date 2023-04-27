@@ -1,5 +1,6 @@
 <script>
 import SectionBusiness from "./SectionBusiness.vue";
+import SectionNetwork from "./SectionNetwork.vue";
 export default {
   name: "AppMain",
   data() {
@@ -7,6 +8,7 @@ export default {
   },
   components: {
     SectionBusiness,
+    SectionNetwork,
   },
 };
 </script>
@@ -14,6 +16,7 @@ export default {
 <template>
   <main>
     <SectionBusiness />
+    <SectionNetwork />
   </main>
 </template>
 
