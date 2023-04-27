@@ -2,6 +2,8 @@
 import SectionBusiness from "./SectionBusiness.vue";
 import SectionNetwork from "./SectionNetwork.vue";
 import SectionActionsProjects from "./SectionActionsProjects.vue";
+import ResultNumbers from "./ResultNumbers.vue";
+import SectionSponsor from "./SectionSponsor.vue";
 export default {
   name: "AppMain",
   data() {
@@ -11,6 +13,8 @@ export default {
     SectionBusiness,
     SectionNetwork,
     SectionActionsProjects,
+    ResultNumbers,
+    SectionSponsor,
   },
 };
 </script>
@@ -20,6 +24,8 @@ export default {
     <SectionBusiness />
     <SectionNetwork />
     <SectionActionsProjects />
+    <ResultNumbers />
+    <SectionSponsor />
   </main>
 </template>
 
