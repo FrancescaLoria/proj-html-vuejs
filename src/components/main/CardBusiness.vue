@@ -97,7 +97,6 @@ export default {
 <style scoped lang="scss">
 .ms_card {
   background-color: white;
-
   border-radius: 10px;
   width: calc(100% / 3 - 20px);
   margin: 10px;
