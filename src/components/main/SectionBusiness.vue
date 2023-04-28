@@ -35,6 +35,14 @@ export default {
       <div class="row">
         <CardBusiness />
       </div>
+      <div class="divider d-flex">
+        <div>
+          <img src="../../assets/images/bullets.png" alt="" />
+        </div>
+        <div>
+          <img src="../../assets/images/bullets.png" alt="" />
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -43,6 +51,7 @@ export default {
 .business {
   padding: 100px 0;
   background-color: #eef4ed;
+  position: relative;
   .areas {
     color: #058283;
     font-size: 12px;
@@ -65,6 +74,18 @@ export default {
     width: 60%;
     font-size: 13px;
     color: grey;
+  }
+
+  .divider {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    img {
+      width: 50px;
+      object-fit: cover;
+    }
   }
 }
 </style>

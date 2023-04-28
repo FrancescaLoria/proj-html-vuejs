@@ -58,6 +58,10 @@ export default {
     margin: 0;
     padding-left: 0;
 
+    li {
+      cursor: pointer;
+    }
+
     .title-card {
       font-weight: 800;
       font-size: 18px;

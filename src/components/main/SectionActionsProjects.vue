@@ -42,6 +42,14 @@ export default {
 <template>
   <div class="projects">
     <div class="ms_container text-center">
+      <div class="divider d-flex">
+        <div>
+          <img src="../../assets/images/bullets.png" alt="" />
+        </div>
+        <div>
+          <img src="../../assets/images/bullets.png" alt="" />
+        </div>
+      </div>
       <div class="everyone mb-4">WE DO MORE FOR EVERYONE</div>
       <div class="d-flex justify-content-center">
         <div class="title">Actions &</div>
@@ -85,6 +93,7 @@ export default {
 <style scoped lang="scss">
 .projects {
   padding: 100px 0;
+  position: relative;
 
   .everyone {
     color: #058283;
@@ -115,6 +124,18 @@ export default {
   .ms_row {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .divider {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    img {
+      width: 50px;
+      object-fit: cover;
+    }
   }
 }
 </style>
